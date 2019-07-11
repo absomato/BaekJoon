@@ -1,6 +1,8 @@
+package no10828;
+
 import java.util.Scanner;
 
-public class no10828 {
+public classjinseok {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int top=0,i,n;
