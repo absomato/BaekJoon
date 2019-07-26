@@ -2,7 +2,7 @@ package no10828;
 
 import java.util.Scanner;
 
-public classjinseok {
+public class jinseok {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int top=0,i,n;

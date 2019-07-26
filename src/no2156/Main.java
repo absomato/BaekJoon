@@ -24,6 +24,7 @@ public class Main{
         if(n>1) d[2]=a[1]+a[2];
         for(i=3;i<=n;i++){
             d[i]=Max(d[i-1],d[i-2]+a[i],d[i-3]+a[i-1]+a[i]);
+            System.out.println(d[i]);
         }
         System.out.println(d[n]);
         sc.close();
