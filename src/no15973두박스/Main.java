@@ -15,10 +15,10 @@ public class Main {
         else return 0;
     }
     public static int face(){
-        if(p[1][1]<= p[3][1] && p[2][1] >=p[4][1])
+        return 0;
     }
     public static int line(){
-
+return 0;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
