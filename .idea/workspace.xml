@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fceb32e-8ed3-46a7-83e0-253870478ae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/no12400구글한스/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/no2798블랙잭/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/no15973두박스/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/no15973두박스/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no15973두박스/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no15973두박스/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no12400구글한스/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no12400구글한스/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/no12400구글한스/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="360">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -188,10 +184,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565765134566" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565853174895" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -310,11 +307,12 @@
       <workItem from="1564662055882" duration="1093000" />
       <workItem from="1565757666133" duration="661000" />
       <workItem from="1565763170520" duration="2543000" />
+      <workItem from="1565846633032" duration="5400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36229000" />
+    <option name="totallyTimeSpent" value="41629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -452,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no12400구글한스/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="360">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
