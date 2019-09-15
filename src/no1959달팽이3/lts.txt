@@ -1,0 +1,75 @@
+#include<stdio.h>
+
+int el[505][5], lis[505];
+
+int change1(int i, int j)
+{
+	int a;
+	a = el[i][1];
+	el[i][1] = el[j][1];
+	el[j][1] = a;	
+}
+
+int change2(int i, int j)
+{
+	int a;
+	a = el[i][2];
+	el[i][2] = el[j][2];
+	el[j][2]=a;
+}
+
+int main()
+{
+	int i, j, n, max=1;
+	
+	scanf("%d", &n);
+	
+	for(i=1; i<=n; i++)
+	{
+		scanf("%d%d", &el[i][1], &el[i][2]);
+	}
+	
+	for(i=1;i<=n;i++)
+	{
+		for(j=i;j<=n;j++)
+		{
+			if(el[i][1]>el[j][1])
+			{
+				change1(i, j);
+				change2(i, j);
+			}
+		}
+	}
+	
+	for(i=1; i<=n; i++)
+	{
+		lis[i]=1;
+	}
+	
+	for(i=2;i<=n;i++)
+	{
+		for(j=1;j<i;j++)
+		{	
+			if(el[j][2] < el[i][2] && lis[i]<=lis[j])
+			{
+				lis[i] = lis[j] + 1;
+				/*printf("===========\n");
+				for(int k=1; k<=n; k++)
+				{
+					printf("%d %d %d\n", el[k][1], el[k][2], lis[k]);
+				}
+				printf("===========\n");*/
+				if(lis[i]>max)
+				{
+					max=lis[i];
+				}
+			}
+			else
+			{
+				continue;
+			}
+		}
+	}
+	
+	printf("%d", n - max);
+}
